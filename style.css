@@ -5,13 +5,7 @@
     clear: both;
 }
 
-body .Herd{
-    width: 100%;
-    background-color: black;
-
-    
-}
-body .Herd h1{
+.container h1{
     color:  red;
     text-align: center;
     font-size: 50px;
@@ -24,18 +18,15 @@ iframe {
 }
 
 
-
-
-
-
-.conter {
+.cameras {
     display: flex;
     flex-direction: row;
     max-width: 100%;
     margin: 0 auto;
-    padding: 20px;
+    padding: 2px;
     flex-wrap: wrap;
     justify-content: space-around;
+    
 }
 
 .card {
@@ -45,6 +36,7 @@ iframe {
     margin: 10px;
     display: flex;
 }
+
 @media screen and (max-width: 1048px)/*MENU MOBILE */{   
 
 
