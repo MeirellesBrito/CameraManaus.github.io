@@ -1,5 +1,6 @@
 *{
-    background-color: black;
+    background-image: url(https://www.shutterstock.com/shutterstock/videos/1033573310/thumb/3.jpg?ip=x480);
+    background-size: 100%;
 }
 .clear {
     clear: both;
@@ -36,7 +37,52 @@ iframe {
     margin: 10px;
     display: flex;
 }
+.teste > .teste01{
+    background-color: rebeccapurple;
+}
+.teste01 > h1 {
+    background-color: red ;
+    height: auto;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
 
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .footer01 {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
 @media screen and (max-width: 1048px)/*MENU MOBILE */{   
 
 
